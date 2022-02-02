@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.video {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+.section-1 {
+  height: 100vh;
+  width: 100%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+}
+.title{
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.title > h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px 4px 5px #32618d;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode";
+  font-size: 75px;
+  letter-spacing: 21px;
+}
+
+.title > p {
+  color: rgb(199, 0, 0);
+  font-size: 32px;
+  font-family: "Koulen", monospace;
+  letter-spacing: 2px;
+  text-shadow: 20px black;
+}
+
+
+.modal{
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  background-color: #fffffff6;
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+
+}
+
+.btn{
+  float: right;
+  cursor: pointer;
+  outline:none;
+  margin: 12px;
+  font-weight: bold;
+  background: none;
+  font-size: 17px;
+}
+.btn:hover{
+ color: rgb(190, 35, 35);
+  transition: .6s;
+}
+.arrow {
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.section-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: rgb(5, 0, 10);
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  margin: 50px;
+}
+
+.profile > p {
+  font-size: 22px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode";
+  margin-left: 3%;
+}
+
+.perfil {
+  width: 15%;
+  border-radius: 150px;
+  box-shadow: 0px 0px 15px 0px #4c647c;
+}
+
+.skills {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  width: 60%;
+  border: 8px solid #2e5896;
+  border-radius: 20px;
+}
+
+.skills-title {
+  font-size: 50px;
+  font-family: Koulen;
+  font-weight: bold;
+  text-shadow: 0px 3px 10px #32618d;
+  letter-spacing: 10px;
+  width: 70%;
+  margin-left: 6%;
+}
+
+.my-proyects {
+  color: #90acc7;
+  font-size: 37px;
+  font-family: Koulen;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-left: -20px;
+}
+
+.arrow-2{
+  margin-left: 40%;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+a{
+color: rgb(255, 255, 255);
+font-size: 20px;
+text-decoration: none;
+padding: 10px;
+}
+
+a:hover{
+color: rgba(255, 255, 255, 0.541);
+transition: .6s;
+}
+
+.container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.data-img{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.data-img:hover{
+  box-shadow: 20px 20px 20px rgb(0, 0, 0, 0, 4);
+  transform: translateY(-10%);
+  height: 65px;
+  transition: .4s;
+
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.data{
+  display: flex;
+  justify-content: center;
+  margin-left: 35px;
+  margin-top: 12px;
+}
+.ul-li{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.bottom {
+  outline:none;
+  background:none;
+  color: rgb(255, 255, 255);
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.bottom:hover{
+  color: rgba(255, 255, 255, 0.541);
+  transition: .6s;
+}
+.arrow-3{
+  margin: auto;
+}
+.pokemon{
+  filter: brightness(0.3);
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+.h4{
+  margin-top: 1%;
+  font-size: 18px;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+background-color: #494747;
+}
+::-webkit-scrollbar-thumb{
+background-color: rgb(0, 0, 0); 
+background-image: -webkit-linear-gradient(90deg,rgba(0, 0, 0, 0.2) 75%,transparent 25%,transparent 50%,rgba(255, 255, 255, .2) 50%,rgba(0, 0, 0, 0.2) 75%,transparent 75%,transparent)
+}
+
+
+
+.h1 {
+  font-size: 60px;
+  letter-spacing: 15px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+  margin-bottom: 13px;
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 5px 6px #000000;
+}
+
+.h1:hover {
+  text-shadow: 3px 5px 6px #8f69ad;
+  transition: 0.5s;
+}
+
+.navigation{
+  transform: translate(3px, 3px);
+  color: rgb(96, 6, 180);
+  font-size: 50px;
+}
+
+.icon-git:hover{
+  transform: translateY(-10%);
+  transition: .5s;
+}
+
+.pokemonApp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top:  2%;
+}
+.pokeTitle , .hk-cont-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  width: 65% ;
+  margin: auto;
+  overflow: hidden;
+  border: 5px solid rgb(0, 0, 0);
+}
+
+.slider ul{
+  display:flex;
+  padding: 0;
+  width: 500%;
+  animation: cambio 20s infinite alternate;
+}
+
+.slider li{
+  width: 100%;
+  list-style: none;
+}
+.slider img{
+  width: 100%;
+  height: 100%;
+}
+
+.section-3, .section-4 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.henryKidsBg{
+  filter: brightness(0.9);
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+.henryKids{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hkTitle{
+color: rgb(255, 174, 0);
+margin-bottom: 12px;
+font-weight: bold;
+letter-spacing: 15px;
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+font-size: 70px;
+text-shadow: 5px 3px rgb(2, 2, 5);
+
+}
+.videoHk {
+  width: 60%;
+  border-left: 8px solid rgb(255, 208, 0);
+  border-right: 8px solid rgb(255, 208, 0);
+}
+
+@keyframes cambio {
+  0% {margin-left: 0;}
+  20% { margin-left: 0;}
+
+  25%{ margin-left: -100%;}
+  45% { margin-left: -100%;}
+
+  50%{ margin-left: -200%;}
+  70% { margin-left: -200%;}
+  
+  75%{ margin-left: -300%;}
+  100% { margin-left: -300%;}
+}
