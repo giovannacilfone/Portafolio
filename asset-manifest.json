@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.629d4914.css",
-    "main.js": "/Portafolio/static/js/main.3cd540bc.js",
+    "main.css": "/Portafolio/static/css/main.496a2d71.css",
+    "main.js": "/Portafolio/static/js/main.fe0f6d15.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portafolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/hk.mp4": "/Portafolio/static/media/hk.fef695a67cb4d3a6ad3a.mp4",
     "static/media/video.mp4": "/Portafolio/static/media/video.203864c7a88151d96941.mp4",
@@ -11,19 +11,19 @@
     "static/media/search.png": "/Portafolio/static/media/search.7a35ed8b879eb387bf4d.png",
     "static/media/home.png": "/Portafolio/static/media/home.9cf1e732046dcf89497e.png",
     "static/media/pokemon.png": "/Portafolio/static/media/pokemon.298fefb75667bab33ff8.png",
-    "static/media/icons.svg": "/Portafolio/static/media/icons.eaf94f9d09e83217a890e141d3314754.svg",
     "static/media/wpp.png": "/Portafolio/static/media/wpp.d1038eb1bce26b4dab85.png",
     "static/media/CV-Giovanna.pdf": "/Portafolio/static/media/CV-Giovanna.36fc900cd1f0d6d7e719.pdf",
     "static/media/gmail.png": "/Portafolio/static/media/gmail.6770ed0865a147806273.png",
     "static/media/perfil.jpg": "/Portafolio/static/media/perfil.e760eaf78c40fc7a7e09.jpg",
     "static/media/iconGit.png": "/Portafolio/static/media/iconGit.3ec61b93854178c47369.png",
+    "static/media/skills.png": "/Portafolio/static/media/skills.dac1461845065f5c7710.png",
     "index.html": "/Portafolio/index.html",
-    "main.629d4914.css.map": "/Portafolio/static/css/main.629d4914.css.map",
-    "main.3cd540bc.js.map": "/Portafolio/static/js/main.3cd540bc.js.map",
+    "main.496a2d71.css.map": "/Portafolio/static/css/main.496a2d71.css.map",
+    "main.fe0f6d15.js.map": "/Portafolio/static/js/main.fe0f6d15.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portafolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.629d4914.css",
-    "static/js/main.3cd540bc.js"
+    "static/css/main.496a2d71.css",
+    "static/js/main.fe0f6d15.js"
   ]
 }
